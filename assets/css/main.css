@@ -2425,7 +2425,8 @@
 	}
 
 		.image img {
-			border-radius: 8px;
+			/*border-radius: 8px;*/
+			border-radius: 50%;
 			display: block;
 		}
 
