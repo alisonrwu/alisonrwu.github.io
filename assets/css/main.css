@@ -1176,7 +1176,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		*, *:before, *:after {
+		*, *:before, *:after :not(timeline) {
 			-moz-box-sizing: content-box;
 			-webkit-box-sizing: content-box;
 			box-sizing: content-box;
@@ -2613,7 +2613,7 @@
 						}
 
 						ul.actions li > * {
-							width: 100%;
+							/*width: 100%;*/
 							margin: 0 !important;
 						}
 
