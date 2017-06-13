@@ -1176,7 +1176,13 @@
 
 	@media screen and (max-width: 480px) {
 
-		*, *:before, *:after :not(timeline) {
+		.timeline-panel {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		*, *:before, *:after {
 			-moz-box-sizing: content-box;
 			-webkit-box-sizing: content-box;
 			box-sizing: content-box;
@@ -2713,6 +2719,15 @@
 		margin-top: 3em;
 	}
 
+	@media(max-width:768px) {
+		#resume header {
+			text-align: left;
+		}
+		#resume header.major h2:after {
+			margin-left: 0;
+		}
+	}
+
 	@media screen and (max-width: 736px) {
 
 		header.major {
@@ -3765,7 +3780,7 @@
 				}
 
 				#foot .copyright {
-					text-align: left;
+					/*text-align: left;*/
 				}
 
 		}
