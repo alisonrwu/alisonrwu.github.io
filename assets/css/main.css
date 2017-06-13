@@ -1176,6 +1176,12 @@
 
 	@media screen and (max-width: 480px) {
 
+		*, *:before, *:after {
+			-moz-box-sizing: content-box;
+			-webkit-box-sizing: content-box;
+			box-sizing: content-box;
+		}
+
 		.row > * {
 			padding: 0 0 0 1em;
 		}
@@ -3347,12 +3353,20 @@
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				/*display: none;*/
 			}
 
 				#nav + #main {
 					padding-top: 0;
 				}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			#nav {
+				max-width: 100%;
+			}
 
 		}
 
