@@ -94,10 +94,15 @@
 .timeline .timeline-heading h2 {
 	margin-top: 30px;
 }
-.timeline .timeline-heading h4.subheading {
+.timeline .timeline-heading a {
+	border-bottom: dotted 0px;
+}
+.timeline .timeline-heading h4.title {
 	text-transform: none;
-	color: #629ca7;
+	color: #5f4d93 !important; /*935d8c  5f4d93*/
 	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 0;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
@@ -150,8 +155,7 @@
 	}
 	.timeline>li .timeline-image h4 {
 		margin-top: 30px;
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 18px;		line-height: 26px;
 	}
 	.timeline>li.timeline-inverted>.timeline-panel {
 		padding: 0 20px 20px;
