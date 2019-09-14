@@ -1,0 +1,1 @@
+alert('Wow!!\nCookie: '+document.cookie + '\nOrigin: '+location.origin+'\nUrl: '+top.location.href+'?');
